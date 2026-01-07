@@ -336,39 +336,41 @@ fieldset[disabled] .btn-theme {
 .promo-block {
   position: relative;
   background: #fafafa;
-  padding-top: 130px;
+  padding-top: 120px; /* Reduced */
+  padding-bottom: 20px; /* Optional: add for bottom spacing */
 }
 
 @media (max-width: 768px) {
   .promo-block {
     text-align: center;
-    padding-top: 170px;
+    padding-top: 100px; /* Reduced */
   }
 }
 
 .promo-block .promo-block-title {
-  font-size: 70px;
+  font-size: 60px; /* Reduced */
   line-height: 1;
 }
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
-    font-size: 50px;
+    font-size: 50px; /* Keep this as is or adjust as desired */
   }
 }
 
 .promo-block .promo-block-text {
-  font-size: 25px;
+  font-size: 20px; /* Reduced */
 }
 
 .promo-block .promo-block-img-wrap {
   position: relative;
-  height: 400px;
+  height: 300px; /* Reduced */
+  overflow: hidden; /* Prevent overflow */
 }
 
 @media (max-width: 768px) {
   .promo-block .promo-block-img-wrap {
-    height: auto;
+    height: auto; /* Allow for flexibility in smaller screens */
   }
 }
 
@@ -376,6 +378,9 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   right: 0;
   bottom: 0;
+  height: 100%; /* Keep image within the wrapper */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure it fits nicely */
 }
 
 @media (max-width: 768px) {
@@ -384,6 +389,11 @@ fieldset[disabled] .btn-theme {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.promo-block .photo-credits {
+    text-align: right;        /* Center the text below the image */
+    margin-top: 10px;         /* Add some space between the image and text */
 }
 
 /*------------------------------------------------------------------
