@@ -336,7 +336,7 @@ fieldset[disabled] .btn-theme {
 .promo-block {
   position: relative;
   background: #fafafa;
-  padding-top: 220px;
+  padding-top: 130px;
 }
 
 @media (max-width: 768px) {
