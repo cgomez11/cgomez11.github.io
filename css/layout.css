@@ -370,7 +370,7 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 768px) {
   .promo-block .promo-block-img-wrap {
-    height: 200px; /* Allow for flexibility in smaller screens */
+    height: 250px; /* Allow for flexibility in smaller screens */
   }
 }
 
