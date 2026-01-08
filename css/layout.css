@@ -354,7 +354,7 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
-    font-size: 50px; /* Keep this as is or adjust as desired */
+    font-size: 40px; /* Keep this as is or adjust as desired */
   }
 }
 
@@ -370,7 +370,7 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 768px) {
   .promo-block .promo-block-img-wrap {
-    height: auto; /* Allow for flexibility in smaller screens */
+    height: 200px; /* Allow for flexibility in smaller screens */
   }
 }
 
