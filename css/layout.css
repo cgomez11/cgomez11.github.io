@@ -360,6 +360,7 @@ fieldset[disabled] .btn-theme {
 
 .promo-block .promo-block-text {
   font-size: 20px; /* Reduced */
+  font-weight: bold;
 }
 
 .promo-block .promo-block-img-wrap {
